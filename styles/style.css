@@ -1,0 +1,84 @@
+/*SITE WIDE */
+
+html {
+	font-family: 'Fira Code', monospace;
+	font-size: 16px;
+	height: 100%;
+}
+
+body {
+	display: flex;
+    flex-flow: column;
+    height: 100%;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
+	color: #ffffff;
+	margin: 0;
+	
+}
+
+/* HEADER SPACE */
+
+header {
+	display: flex;
+}
+
+/* BRAND AND LOGO */
+
+#branding {
+	display: flex;
+	margin: 2rem 0 1rem 1rem;
+	align-items: flex-start;
+}
+
+#title h1 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+/* Main Content Sections */
+
+main {
+	display: grid;
+	flex: 1 1 auto;
+}
+ 
+/* Final bar */
+
+#tailbar {
+	display: flex;
+	padding: 0.25rem 0.5rem;
+	margin: 0.5rem 1rem;
+	font-size: 0.9rem;
+	font-weight: 200;
+	align-items: center;
+}
+
+#copyright {
+	text-align: right;
+	width: 100%;
+}
+
+#js {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* UHD Display */
+@media only screen and (min-width: 1600px) {
+}
+
+/* HD Display */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Tablet Portait Display */
+@media only screen and (max-width: 768px) {
+}
+
+/* Mobile Display */
+@media only screen and (max-width: 480px) {
+	#tailbar {
+		flex-flow: column;
+	}
+}
